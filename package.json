@@ -4,7 +4,7 @@
   "description": "Peak signal-to-noise ratio, often abbreviated PSNR, is an engineering term for the ratio between the maximum possible power of a signal and the power of corrupting noise that affects the fidelity of its representation. Because many signals have a very wide dynamic range, PSNR is usually expressed in terms of the logarithmic decibel scale.",
   "main": "src/psnr.js",
   "scripts": {
-    "test": "tap test/*"
+    "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,19 @@
     "dynamic",
     "range"
   ],
-  "author": "Rob Griffiths",
+  "author": {
+    "name": "Rob Griffiths",
+    "email": "rob@bytespider.eu",
+    "url": "http://bytespider.eu"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bytespider/psnr/issues"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8"
+  },
+  "dependencies": {
+    "mse": "~0.1.0"
   }
 }
